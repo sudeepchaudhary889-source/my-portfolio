@@ -1,0 +1,16 @@
+body {
+  background-color: #aea3a3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #ffffff;
+  }
+#profile-name {
+  color: #2563EB;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+.card-info {
+  color: #22453c
+  font-size: 15px;
+  line-height: 1.6;
+}
