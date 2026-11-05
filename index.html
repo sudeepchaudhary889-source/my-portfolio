@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="profile-name">chaudhary sudeep</h1>
+  <p class="card-info">Software Engineering Student | Seoul, Korea</p>
+  <p>My English typing speed measured this week is [25] WPM.</p>
+
+  <!-- ADD THIS NEW SECTION BELOW -->
+  <h2>My Favorite Photo</h2>
+  <img src="https://picsum.photos/400/300" alt="A scenic landscape placeholder photo">
+
+  <h2>About My Hometown</h2>
+  <p>I grew up in [nepal/kathmandu]. It is known for its beautiful scenery, rich culture, and friendly people.</p>
+
+  <hr>
+  <p>Created during Week 3 HTML Basics practice.</p>  <h2>My Interests & Technologies</h2>
+  <ul>
+    <li>HTML5 & Web Standards</li>
+    <li>Artificial Intelligence & Prompt Engineering</li>
+    <li>Global Cultural Exchange</li>
+  </ul>
+
+  <h2>My Daily Routine / Top 3 Goals</h2>
+  <ol>
+    <li>Measure English typing speed on Monkeytype (Target: 50+ WPM)</li>
+    <li>Build practical coding skills through cumulative assignments</li>
+    <li>Actively participate in class and collaborate with peers</li>
+  </ol>
+  <p>Visit my university: <a href="https://www.stu.ac.kr" target="_blank">Seoul Theological University</a></p>
+  <!-- Top navigation link -->
+
+<!-- Destination section further down the page -->
+<h2 id="guestbook">Guestbook</h2>
+  <hr>
+  <h2>Leave a Message (Guestbook)</h2>
+  <form>
+    <p>
+      <label for="visitor-name">Your Name:</label><br>
+      <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g., Alex Kim" required>
+    </p>
+
+    <p>
+      <label for="visitor-email">Your Email:</label><br>
+      <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required>
+    </p>
+
+    <p>
+      <label for="visitor-message">Your Message:</label><br>
+      <textarea id="visitor-message" name="visitor-message" rows="4" cols="45" placeholder="Share your greeting, feedback, or thoughts..."></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit Message</button>
+    </p>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
